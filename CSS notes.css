@@ -1,0 +1,53 @@
+CSS allows you to style your website to your liking. 
+Inline styling allows you to input code within an html document.
+Place a <style> element inside the <head> element. This allows you to style multiple headings. </style>, </head>
+a style.css file allows you to separate your html code from your css code, with two different files.
+For your html code to locate your css code, you need to link them together. Use the <link> element. </link>. You also need a href, rel, and type, to specify it.
+A css selector allows you to select all the code that corresponds to that tag. The tag is the letter in the angle brackets, without those brackets, from html.
+You can also select code using the class attribute. If the class is set to brand, we will use the attribute .brand.
+If an element needs two or more attributes, you can add multiple classes to an element's class attribute by separating them with a space.
+An id allows you to style your code uniquely without referring to the class. 
+An id overrides the class and tag element, making it essential to only use it when elements need to appear the same.
+Id selectors, class selectors, and tag selectors make it much easier for you to edit codes with multiple tags, classes, and IDs.
+Chaining means to have multiple selectors in the same element. 
+We can select multiple elements that are nested in other elements .mainlist li selects the items in the mainlist (unordered list).
+The more tags, classes and ID's you add, the more specific it gets.
+!important is even more specific than ID's. It should almost never be used because it will be hard to override.
+Making CSS code more concise is easy and avoids repetitive code. Just separate the selectors with a comma.
+A CSS rule consists of a selector and all declarations inside of it. A declaration consists of a property and a value.
+The font-family is also known as the typeface. Default typeface is Times New Roman. 
+Modifying the size of your text can also be useful. Px stands for pixels and is the unit for measuring font size.
+Font-weight allows you to decide how much bold you want in your text. 
+Text align allows you to align your text to the left, center, or right.
+Foreground color is the color that the element appears in.
+Background color is the background of the heading. 
+Opacity is the amount of transparency in an element. 
+You can make the background of your webpage an image by using background-image. You need to provide a value to it, a url that leads to an image.
+The box model is essentially code "living" inside a box.
+The box model contains the elements width and height, padding, border, and margin.
+CSS height and width components can be used to edit the box's dimensions.
+Borders are lines surrounding elements. They can be set with a width, style, and color.
+Border-radius code allows you to alter the corners of the border.
+Padding is the space between the border and the contents. You can change it to make your box less cramped. 
+You can simplify your code to set exactly how much padding you want on each side. Write four numbers, and they correspond to a clockwise rotation: top, right, bottom, left.
+Margin is the space directly outside the box. 
+The simplification of margin is the same as padding. Write four numbers that correspond to top right bottom and left in clockwise rotation.
+The auto component is used to center your element.
+Min-width and max-width allow you to make your box a minimum size and a maximum size. You can also adjust the height of your paragraph with min-height and max-height.
+The total dimensions are found when you add the vertical dimensions and the horizontal dimensions together.
+Overflow: hidden hides the code that's overflowing from view.
+Overflow: scroll allows you to put a scroll bar so that you can access the code by scrolling.
+Overflow: visible id default. The code will be displayed outside.
+User agent stylesheets have default rules. To reset the values to work with a clean slate, set everything to 0.
+Visibility: hidden hides an element.
+Visibility: visible displays an element. 
+Border-box keeps the values of the height and width the same, without adding margins and borders, keeping it simple for coders.
+Static is the default position.
+Setting the property to relative sets the position relative to the default static position, but it doesn't tell exactly where to position it.
+Setting an offset position to up, down, left, and right will move the image in the respective direction. It won't work unless the position is set to relative. 
+Absolute elements ignore all other properties.
+Position: fixed allows you to place a box and not let it move when you scroll.
+The z-index property controls how far back or forward the element should be placed on the page.
+The inline-block element takes into consideration inline and block elements.
+Float left or right moves the element as far left or right as possible.
+The clear property tells your code how to respond when two elements touch each other.
