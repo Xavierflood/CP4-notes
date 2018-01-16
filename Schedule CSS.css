@@ -1,2 +1,5 @@
 body
 { color: orange; }
+td:hover {
+	background-color: orange;
+}
