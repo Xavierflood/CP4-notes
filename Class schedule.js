@@ -1,6 +1,6 @@
 var selectedClass;
 	function classselector() {
-		var className = document.getElementById("selectedClass").value;
+		var className = document.getElementById("something").value;
 			switch (className) {
 				case 'gym':
 					selectedClass = "gym";
@@ -45,14 +45,13 @@ var selectedClass;
 				case 'homeroom':
 					selectedClass = "homeroom";
 				break;	
-					
-    console.log('Oranges are $0.59 a pound.');
-    break;
-  case 'Mangoes':
-  case 'Papayas':
-    console.log('Mangoes and papayas are $2.79 a pound.');
-    // expected output: "Mangoes and papayas are $2.79 a pound."
-    break;
-  default:
-    console.log('Sorry, we are out of ' + expr + '.');
-}
+				
+				case 'level assembly':
+					selectedClass = "level assembly";
+				break;
+			}			
+				var className = document.getElementsByClassName(selectedClass);
+				for (i= 0; i<className.length; i++ ){
+					className[i].style.backgroundColor = "red";
+				}
+	}
