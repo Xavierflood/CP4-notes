@@ -1,6 +1,6 @@
 var selectedClass;
 	function classselector() {
-		var className = document.getElementById("something").value;
+		var className = document.getElementById("myInput").value;
 			switch (className) {
 				case 'gym':
 					selectedClass = "gym";
@@ -44,14 +44,10 @@ var selectedClass;
 
 				case 'homeroom':
 					selectedClass = "homeroom";
-				break;	
-				
-				case 'level assembly':
-					selectedClass = "level assembly";
 				break;
-			}			
-				var className = document.getElementsByClassName(selectedClass);
-				for (i= 0; i<className.length; i++ ){
-					className[i].style.backgroundColor = "red";
-				}
+
+				var name = document.getElementByClassName(selectedClass);
+				for(i=0; i<name.length; i++)
+				{name[i].style.backgroundColor = "Blue"; }
+			}
 	}
