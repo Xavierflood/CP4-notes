@@ -47,7 +47,7 @@ var selectedClass;
 				break;
 
 				var name = document.getElementByClassName(selectedClass);
-				for(i=0; i<name.length; i++)
-				{name[i].style.backgroundColor = "Blue"; }
+				for (i=0 ; i<name.length ; i++) {
+					name[i].style.backgroundColor = "blue"; }
 			}
 	}
