@@ -1,53 +1,62 @@
-var selectedClass;
-	function classselector() {
-		var className = document.getElementById("myInput").value;
-			switch (className) {
-				case 'gym':
-					selectedClass = "gym";
+function classselector() {
+	var className = document.getElementById("selectedClass").value;
+		switch (className) {
+				case "gym":
+					className = "gym";
 				break;
 				
-				case 'science':
-					selectedClass = "science";
+				case "science":
+					className = "science";
 				break;
 
-				case 'english':
-					selectedClass = "english";
+				case "english":
+					className = "english";
 				break;
 
-				case 'computer programming':
-					selectedClass = "computer programming";
+				case "computer programming":
+					className = "computer programming";
 				break;
 
-				case 'religion':
-					selectedClass = "religion";
+				case "religion":
+					className = "religion";
 				break;
 
-				case 'music':
-					selectedClass = "music";
+				case "music":
+					className = "music";
 				break;
 
-				case 'french':
-					selectedClass = "french";
+				case "french":
+					className = "french";
 				break;
 
-				case 'speech':
-					selectedClass = "speech";
+				case "speech":
+					className = "speech";
 				break;
 
-				case 'history':
-					selectedClass = "history";
+				case "history":
+					className = "history";
 				break;
 
-				case 'math':
-					selectedClass = "math";
+				case "math":
+					className = "math";
 				break;
 
-				case 'homeroom':
-					selectedClass = "homeroom";
+				case "homeroom":
+					className = "homeroom";
 				break;
+				
+				case "level assembly":
+					className = "level assembly";
+				break;	
+				
+				default: 
+				console.log('Invalid term');
+				break;
+		}
 
-				var name = document.getElementByClassName(selectedClass);
+				var name = document.getElementsByClassName(className);
 				for (i=0 ; i<name.length ; i++) {
-					name[i].style.backgroundColor = "blue"; }
-			}
+					name[i].style.backgroundColor = "red"; 
+					}
+			
 	}
