@@ -1,5 +1,10 @@
+
+/* This is the function part of my code */
+
 function classselector() {
 	var className = document.getElementById("selectedClass").value;
+		/* I created a variable named className and this variable will be changed with whichever class is input into the system. 
+		The switch allows for the variable to change. */
 		switch (className) {
 				case "gym":
 					className = "gym";
@@ -8,7 +13,7 @@ function classselector() {
 				case "science":
 					className = "science";
 				break;
-
+/* In this example, english is the case and the variable becomes english, so the class becomes english as well. */
 				case "english":
 					className = "english";
 				break;
@@ -53,7 +58,7 @@ function classselector() {
 				console.log('Invalid term');
 				break;
 		}
-
+/* This part is the second variable and it is the one that changes the colour aspect. */
 				var name = document.getElementsByClassName(className);
 				for (i=0 ; i<name.length ; i++) {
 					name[i].style.backgroundColor = "red"; 
