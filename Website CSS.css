@@ -4,6 +4,26 @@ h1 {
 p {
 	font-size: 20px;
 }
-html {
-	background-color: blue;
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	background-color: #F1F1F1;
+}
+a:link {
+	color: green;
+	background-color: transparent;
+	text-decoration: none;
+}
+li a {
+	display: block;
+	padding: 8px 16px;
+	color: #000;
+	text-decoration: none;
+}
+/* This changes the color of the link when you hover on it */
+li a:hover {
+	background-color: #555;
+	color: white;
 }
